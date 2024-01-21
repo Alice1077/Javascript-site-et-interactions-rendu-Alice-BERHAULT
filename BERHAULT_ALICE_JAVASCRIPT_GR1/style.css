@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2.5vw;
+}
+header{
+    background-image: url(../img/FemmeDetective.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+a{
+    color: aliceblue
+}
+.titre{
+    color: aliceblue;
+}
+.tel{
+    color: aliceblue;
+    font-style: italic;
+}
+.email{
+    color: aliceblue;
+    font-style: italic;
+}
+.haut{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4vw;
+}
+.titre2{
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pres{
+    text-align: center;
+    width: 60%;
+}
+.mainPres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bouton{
+    background-color: black;
+    width: fit-content;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bouton a{
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+.findDetective{
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.propose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    height: 8vw;
+}
+.footerContact{
+    color: aliceblue;
+}
+.rdv{
+    color: aliceblue;
+}
+.reseau{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+}
+.reseau2{
+    display: flex;
+    justify-content: center;
+}
+.reseau3{
+    text-align: center;
+    width: 60%;
+}
+.chiffres{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 5vw;
+    width: 100%;
+}
+.chiffres2{
+    display: flex;
+    justify-content: space-around;
+    height: 3vw;
+    width: 100%;
+}
+
+@media screen and (max-width: 1120px) {
+    .tel{
+        display: block;
+    }
+    .email{
+        display: block;
+    }
+    .main{
+        width: 100%;
+    }
+    .nav{
+        display: block;
+    }
+}
+
+.swiper-slide{
+    height: 100vh;
+}
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+
+}
+
+img{
+    width: 100%;
+}
+
+.swiper-slide{
+    background-image: url();
+    background-size: cover;
+}
+
+body .swiper-pagination-bullet {
+    width: 18px;
+    height: 18px;
+}
+
+body .swiper-pagination-bullet-active{
+    background: black;
+}
+
+body .swiper-button-next
+body .swiper-button-prev{
+    color: black;
+}
+.swiper-button-next{
+    color: white;
+}
+.swiper-button-prev{
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+.content{
+    display: none;
+    text-align: center;
+    margin: 25px;
+}
+.active{
+    display: block;
+}
+.boutonListe li{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: black;
+    width: fit-content;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+}

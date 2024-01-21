@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2.5vw;
+}
+header{
+    background-image: url(../img/detectiveFumeur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+a{
+    color: aliceblue;
+}
+.titre{
+    color: aliceblue;
+}
+.tel{
+    color: aliceblue;
+    font-style: italic;
+}
+.email{
+    color: aliceblue;
+    font-style: italic;
+}
+.haut{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4vw;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    height: 8vw;
+}
+.footerContact{
+    color: aliceblue;
+}
+.rdv{
+    color: aliceblue;
+}
+.titre2{
+    height: 4.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sousTitre{
+    height: 2.5vw;
+    display: flex;
+    justify-content: center;
+}
+.para{
+    display: flex;
+    justify-content: center;
+}
+.para1{
+    text-align: center;
+    width: 60%;
+    height: 5vw;
+}
+.para2{
+    text-align: center;
+    width: 60%;
+    height: 4vw;
+}
+.para4{
+    display: flex;
+    justify-content: center;
+}
+.bouton1{
+    background-color: black;
+    width: fit-content;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bouton1 a{
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+.bouton2{
+    background-color: black;
+    width: fit-content;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bouton2 a{
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+.formation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formation2{
+    text-align: center;
+    width: 60%;
+    height: 2vw;
+    margin: 15px;
+}
+.faq{
+    color: black;
+}
+
+form{
+    border: 1px solid rgba(153, 153n, 153, 0.6);
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+form > div {
+    margin: 30px 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+input{
+    height: 20px;
+    width: 40%;
+}
+
+button {
+    margin-left : 20px;
+    margin-bottom: 30px;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+
+.message-error {
+    border: 1px solid rgba(212, 42, 0, 1);
+    color: rgb(212, 42, 0);
+    background-color: rgba(212, 42, 0, 0, 4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.message-success {
+    border: 1px solid rgb(81, 150, 2) ;
+    color: rgb(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0, 4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+button {
+    margin-left : 20px;
+    margin-bottom: 30px;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+
+.message-error {
+    border: 1px solid rgba(212, 42, 0, 1);
+    color: rgb(212, 42, 0);
+    background-color: rgba(212, 42, 0, 0, 4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.message-success {
+    border: 1px solid rgb(81, 150, 2) ;
+    color: rgb(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0, 4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.faux{
+    background-color: crimson;
+}
+
+.success{
+    background-color: darkgreen;
+}
+
+.visible{
+    display: block;
+}
+
+.message-error.visible {
+    display: block;
+}

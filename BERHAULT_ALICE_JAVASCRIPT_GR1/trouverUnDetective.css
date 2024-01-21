@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2.5vw;
+}
+header{
+    background-image: url(../img/Detective.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+a{
+    color: aliceblue;
+}
+.titre{
+    color: aliceblue;
+}
+.tel{
+    color: aliceblue;
+    font-style: italic;
+}
+.email{
+    color: aliceblue;
+    font-style: italic;
+}
+.haut{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4vw;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    height: 8vw;
+}
+.footerContact{
+    color: aliceblue;
+}
+.rdv{
+    color: aliceblue;
+}
+.titre2{
+    height: 4.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sousTitre{
+    height: 2.5vw;
+    display: flex;
+    justify-content: center;
+}
+.sousTitre p{
+    text-align: center;
+    width: 70%;
+}
+.imgSherlock{
+    margin: 30px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+.imgScooby{
+    margin: 30px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+.imgConan{
+    margin: 30px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+.paraSherlock{
+    display: flex;
+    justify-content: center;
+    height: 2vw;
+}
+.paraSherlock a{
+    text-align: center;
+    width: 60%;
+}
+.boutonSherlock{
+    background-color: black;
+    width: fit-content;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.boutonSherlock a{
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+.boutonConan{
+    background-color: black;
+    width: fit-content;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.boutonConan a{
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+.boutonScoobyDoo{
+    background-color: black;
+    width: fit-content;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.boutonScoobyDoo a{
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+.paraConan{
+    display: flex;
+    justify-content: center;
+    height: 2vw;
+}
+.paraConan p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 5vw;
+    width: 70%;
+    margin: -1vw;
+}
+.paraScooby{
+    display: flex;
+    justify-content: center;
+    height: 2vw;
+}
+.paraScooby p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 2vw;
+    width: 70%;
+    margin: -1vw;
+}
+.see{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-decoration: underline;
+}
+.nuit{
+    position: absolute;
+    cursor: pointer;
+    width: 85px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 20%;
+    background: black;
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+main.dark {
+    color: white;
+    background-color: rgb(32, 32, 32);
+}
